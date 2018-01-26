@@ -1,0 +1,30 @@
+{
+  "name": "sprint-challenge-rdbms",
+  "version": "1.0.0",
+  "description": "RDBMS",
+  "main": "db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCamp-12/Sprint-Challenge-RDBMS.git"
+  },
+  "keywords": [
+    "SQL"
+  ],
+  "author": "JCC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JCamp-12/Sprint-Challenge-RDBMS/issues"
+  },
+  "homepage": "https://github.com/JCamp-12/Sprint-Challenge-RDBMS#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "mysql": "^2.15.0",
+    "sqlite3": "^3.1.13"
+  }
+}
